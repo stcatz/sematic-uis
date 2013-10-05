@@ -1,3 +1,7 @@
+body {
+	background-color: #eee;
+}
+
 .blog .attached {
 	display: inline-block;
 	position: fixed;
@@ -34,6 +38,15 @@ h1 span {
 
 .blog .pagination {
 	float: right;
+}
+
+.blog .items .item {
+	width: 290px;
+	height: 300px;
+}
+
+.blog .items .name {
+	font-size: 25px;
 }
 
 a.avatar {
